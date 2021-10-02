@@ -1,0 +1,178 @@
+body{
+     background-color: white;
+}
+
+h1{
+        position: absolute;
+        top: -3%;
+        left: 35%;
+        font-size: 250%;
+        color:orangered;
+        }
+p{
+        position: absolute;
+        top: 9%;
+        left: 32%;
+        font-size: 150%;
+        color:black;
+}
+
+.Receipt{
+        position: absolute;
+        top: 120px;
+        left: 800px;
+        font-size: 30px;
+        font-weight: bolder;
+}
+
+.Cname{
+        position: absolute;
+        top: 190px;
+        left: 800px;
+        font-size: 20px;
+        color:black;
+        font-weight: bold;
+}
+.Product1{
+        position: relative;
+        top: 120px;
+        left: 80px;
+        width: 120px;
+        padding: 50px;
+        height: 120px;
+      }
+
+.Product2{
+        position: relative;
+        top: 370px;
+        right: 150px;
+        width: 120px;
+        padding: 50px;
+        height: 120px;
+      }
+
+.Product3{
+        position: relative;
+        top: 120px;
+        right: 100px;
+        width: 120px;
+        padding: 50px;
+        height: 120px;
+      }
+
+.Product4{
+        position: relative;
+        top: 370px;
+        right: 330px;
+        width: 120px;
+        padding: 50px;
+        height: 120px;
+      }
+
+.ProdName1{
+        position: absolute;
+        top: 285px;
+        font-size: 20px;
+        left: 135px;
+}
+
+.ProdName2{
+        position: absolute;
+        top: 540px;
+        font-size: 20px;
+        left: 130px;
+}
+
+.ProdName3{
+        position: absolute;
+        top: 285px;
+        font-size: 20px;
+        left: 400px;
+}
+
+.ProdName4{
+        position: absolute;
+        top: 540px;
+        font-size: 20px;
+        left: 400px;
+}
+
+.button {
+        color: black;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+      }
+
+.button1{
+        position: relative;
+        top: 140px;
+        right: 780px;
+}
+
+.button2{
+        position: relative;
+        top: 400px;
+        right: 880px;
+}
+
+.button3{
+        position: relative;
+        top: 140px;
+        right: 710px;
+}
+
+.button4{
+        position: relative;
+        top: 400px;
+        right: 810px;
+}
+
+.button5{
+        position: relative;
+        top: 150px;
+        left: 600px;
+}
+
+.Prod1{
+        position: absolute;
+        top: 330px;
+        left: 240px;
+        font-size: 20px;
+}
+
+.Prod2{
+        position: absolute;
+        top: 590px;
+        left: 240px;
+        font-size: 20px;
+}
+
+.Prod3{
+        position: absolute;
+        top: 330px;
+        left: 520px;
+        font-size: 20px;
+}
+
+.Prod4{
+        position: absolute;
+        top: 590px;
+        left: 520px;
+        font-size: 20px;
+}
+
+table {
+        height: 400px;
+        width: 450px;
+        position: absolute;
+        top: 240px;
+        border:1px solid black;
+        left: 800px;
+      }
+
+th, td {
+        border: 2px solid black;
+        padding: 15px;
+}

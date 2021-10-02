@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woods! Online Shopping Market</title>
+    <script src="script.js"></script>
+    <link rel="icon" href="Images/Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <h1> Welcome to Woods!</h1>
+    <p> Please select the product you want to Purchase</p>
+    <p class=Receipt>Receipt</p>
+    <p class=Cname><span id="Cname"></span></p>
+    <p class=ProdName1>Foot Rest - 50$</p>
+    <p class=ProdName2>Rocking Chair - 20$</p>
+    <p class=ProdName3>Side Table - 40$</p>
+    <p class=ProdName4>Closet - 80$</p>
+    <p class="Prod1"><span id="Quant1"></span></p>
+    <p class="Prod2"><span id="Quant2"></span></p>
+    <p class="Prod3"><span id="Quant3"></span></p>
+    <p class="Prod4"><span id="Quant4"></span></p>
+    <img class="Product1" src="Images/Product1.jpg" alt="Foot Rest">
+    <img class="Product2" src="Images/Product2.jpg" alt="Rocking Chair">
+    <img class="Product3" src="Images/Product3.jpg" alt="Side Table">
+    <img class="Product4" src="Images/Product4.jpg" alt="Closet">
+    <button class="button button1" onclick="ProdQty('p1');">Add to cart</button>
+    <button class="button button2" onclick="ProdQty('p2')">Add to cart</button>
+    <button class="button button3" onclick="ProdQty('p3')">Add to cart</button>
+    <button class="button button4" onclick="ProdQty('p4')">Add to cart</button>
+    <button class="button button5" onclick="CheckOut()">Check Out</button>
+
+</body>
+
+</html>
